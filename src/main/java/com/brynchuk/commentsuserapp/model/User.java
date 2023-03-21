@@ -1,11 +1,9 @@
-package com.comments.commentsapp.model;
+package com.brynchuk.commentsuserapp.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Setter
-@Getter
+@Data
 public class User {
     private int id;
     @JsonProperty("username")
