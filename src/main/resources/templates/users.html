@@ -28,7 +28,7 @@
             <td th:text="${data.getBody()}"></td>
             <td th:text="${data.getPostId()}"></td>
             <td th:text="${data.getUsername()}"></td>
-            <td th:text="${data.getUpdatedAt()}"></td>
+            <td th:utext="${#dates.format(data.getUpdatedAt(), 'dd-MM-yyyy HH:mm:ss')}"></td>
 
         </tr>
         </tbody>
