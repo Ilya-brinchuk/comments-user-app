@@ -10,7 +10,7 @@ USED TECHNOLOGIES:
 TO START APP:
 ======
 1. run docker-compose file
-2. run app
+2. run app (port 8081)
 3. credentials:
     * login: admin
     * password: admin
