@@ -1,7 +1,6 @@
 package com.brynchuk.commentsuserapp.controllers;
 
 import com.brynchuk.commentsuserapp.model.Comment;
-import com.brynchuk.commentsuserapp.model.User;
 import com.brynchuk.commentsuserapp.repository.CommentsRepository;
 import com.brynchuk.commentsuserapp.service.DummyService;
 import jakarta.servlet.http.HttpServletRequest;
@@ -11,7 +10,6 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
